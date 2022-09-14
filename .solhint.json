@@ -2,7 +2,9 @@
   "extends": "solhint:recommended",
   "plugins": [],
   "rules": {
+    "compiler-version": ["error", "^0.8.7"],
     "avoid-suicide": "error",
-    "avoid-sha3": "warn"
+    "avoid-sha3": "warn",
+    "prettier/prettier": "error"
   }
 }
