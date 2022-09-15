@@ -3,6 +3,8 @@ pragma solidity ^0.8.7;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
+
+// Hashed time Lock contract
 contract HTLC {
     uint256 public startTime;
     uint256 public lockTime = 10000 seconds;
